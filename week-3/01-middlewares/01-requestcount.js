@@ -13,7 +13,11 @@ let requestCount = 0;
 app.get('/user', function(req, res) {
   res.status(200).json({ name: 'john' });
 });
-
+app.use('/ping',(req,res)=>{
+  requestCount++;
+  res.send(`pinged for ${requestCount} times`);
+  
+})
 app.post('/user', function(req, res) {
   res.status(200).json({ msg: 'created dummy user' });
 });
