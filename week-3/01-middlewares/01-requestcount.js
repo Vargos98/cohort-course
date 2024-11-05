@@ -20,12 +20,6 @@ app.post('/user', function(req, res) {
 
 app.get('/requestCount', function(req, res) {
   res.status(200).json({ requestCount });
-  app.use('/ping',(req,res)=>{
-    requestCount++;
-    res.send(`pinged for ${requestCount} times`);
-  
-  })
-
 });
 
 module.exports = app;

@@ -5,15 +5,7 @@
 */
 
 function isAnagram(str1, str2) {
-  if(str1=== str2){
-    return console.log("true")
 
-  }
-  else{
-    return console.log("false")
-  }
 }
-
-isAnagram("umu", "umu")
 
 module.exports = isAnagram;
