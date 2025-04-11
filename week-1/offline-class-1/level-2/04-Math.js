@@ -11,7 +11,7 @@ function mathMethods(value) {
   console.log("After floor():", flooring);
 
   let randomValue = Math.random();
-  console.log("After random():", randomValue);
+  console.log("After random():", randomValue *10);
 
   let maxValue = Math.max(5, 10, 15);
   console.log("After max():", maxValue);
@@ -27,6 +27,6 @@ function mathMethods(value) {
 }
 
 // Example Usage for Math Methods
-mathMethods(4.56);
+mathMethods(4.45);
 mathMethods(9);
 mathMethods(25);
