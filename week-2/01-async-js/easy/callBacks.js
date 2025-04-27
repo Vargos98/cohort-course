@@ -20,3 +20,5 @@ function doSomething(a,b,fn){
 let ans = doSomething(2,2, square);
 
 console.log(ans);
+
+// This method is implemented using callbacks as in JS we can pass functions as an arguments to another function.
