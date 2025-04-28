@@ -16,4 +16,4 @@ function startCountdown(duration) {
   }, 1000);
 }
 
-startCountdown(30);
+startCountdown(10);
