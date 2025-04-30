@@ -11,7 +11,7 @@ app.get('/api/router',(req,res)=>{
 app.post('/api/convo',(req,res)=>{
   console.log(req.headers.auth)
   res.send({
-    msg:'Hello from POST!',
+    msg:'Hello from POST! From ',
   })
 })
 
